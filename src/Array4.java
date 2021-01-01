@@ -12,7 +12,7 @@ public class Array4 {
         float res7 = prices[6] * 0.02f;
         float[] results = {res1, res2, res3, res4, res5, res6, res7};
         for (int i = 0; i < prices.length; i++) {
-            System.out.println(prices[i] - results[i]);
+            System.out.println(prices[i] - results[i]); // this is straight up
         }
     }
 }
