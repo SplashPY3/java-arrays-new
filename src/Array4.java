@@ -22,9 +22,8 @@ public class Array4 {
         float[] days = {Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday};
         for (int j = 0; j < days.length; j++) {
             if (days[j] < days[4]) {
-                float DiscountPrice = days[j];
                 String Day = "Wednesday";
-                System.out.println("the best day to shop is " + Day + " and the price is " + DiscountPrice);
+                System.out.println("the best day to shop is " + Day + " and the price is " + Wednesday);
             }
         }
     }
