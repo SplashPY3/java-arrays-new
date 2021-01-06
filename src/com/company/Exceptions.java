@@ -17,5 +17,6 @@ public class Exceptions {
         finally {
             System.out.println("Finally code");
         }
+        // trying to remove array4
     }
 }
