@@ -10,21 +10,25 @@ public class Array4 {
         float res7 = prices[6] * 0.02f;
         float[] results = {res1, res2, res3, res4, res5, res6, res7};
         for (int i = 0; i < prices.length; i++) {
+//            System.out.println(prices[i] - results[i]);
             System.out.println(prices[i] - results[i]);
+            float[] days = {prices[i] - results[ i]};
+            System.out.println(days);
+
         }
-        float Monday = 945f;
-        float Tuesday = 1600f;
-        float Wednesday = 855f;
-        float Thursday = 1275f;
-        float Friday = 877.1f;
-        float Saturday = 2025f;
-        float Sunday = 980f;
-        float[] days = {Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday};
-        for (int j = 0; j < days.length; j++) {
-            if (days[j] < days[4]) {
-                String Day = "Wednesday";
-                System.out.println("the best day to shop is " + Day + " and the price is " + Wednesday);
-            }
-        }
+//        float Monday = 945f;
+//        float Tuesday = 1600f;
+//        float Wednesday = 855f;
+//        float Thursday = 1275f;
+//        float Friday = 877.1f;
+//        float Saturday = 2025f;
+//        float Sunday = 980f;
+//        float[] days = {Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday};
+//        for (int j = 0; j < days.length; j++) {
+//            if (days[j] < days[4]) {
+//                String Day = "Wednesday";
+//                System.out.println("the best day to shop is " + Day + " and the price is " + Wednesday);
+//            }
+//        }
     }
 }
